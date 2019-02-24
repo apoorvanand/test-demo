@@ -1,0 +1,14 @@
+spring:
+  rabbitmq:
+   host: 3.16.163.191
+   username: guest
+   password: guest   
+  profiles:
+    active: usage_message
+logging:
+  level:
+    org: DEBUG
+
+tutorial:
+  client:
+    duration: 1000000
